@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 body{
@@ -49,7 +49,7 @@ body{
 
 .title{
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 800;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -68,6 +68,7 @@ body{
 .color-button{
     display: flex;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .color-button div{
@@ -97,7 +98,7 @@ body{
 .sub-detals{
         font-size: 15px;
         font-weight: 600;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .size{
@@ -106,29 +107,33 @@ body{
     }
 
 .Color{
-    font-weight: bolder;
-    font-size: 24px;
-    margin-bottom: 4px;
-    margin-top: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .product{
-    font-weight: bolder;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 20px;
     margin-bottom: 4px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .para{
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .Size{
-    font-weight: bolder;
-    font-size: 24px;
-    margin-bottom: 4px;
-    margin-top: 30px;
-}    
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}  
+
+.size {
+    margin-bottom: 25px;
+}
 
 .size button{
     height: 50px;
@@ -151,16 +156,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .footer p{
-    font-weight: bolder;
-    font-size: 25px;
+    font-weight: 900;
+    font-size: 30px;
 }
 
 .footer button{
-    padding: 10px 20px;
+    padding: 15px 35px;
     border: none;
     font-weight: bolder;
     background-color: blue;
@@ -184,7 +189,7 @@ body{
     .image-section{
         padding: 0;
         width: 100%;
-        height: 200px;
+        height: 300px;
     }
 
     .icon{
@@ -232,11 +237,12 @@ body{
 .color-button{
     display: flex;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .color-button div{
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     border: none;
     
@@ -270,33 +276,33 @@ body{
     }
 
 .Color{
-    font-weight: bolder;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 20px;
     margin-bottom: 4px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .product{
-    font-weight: bolder;
-    font-size: 18px;
-    margin-bottom: 4px;
-    margin-top: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 30px;
 }
 
 .para{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .Size{
-    font-weight: bolder;
+    font-weight: 800;
     font-size: 20px;
-    margin-bottom: 4px;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }    
 
 .size button{
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     border-radius: 7px;
     border: none;
     display: flex;
@@ -320,11 +326,11 @@ body{
 
 .footer p{
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 31px;
 }
 
 .footer button{
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: none;
     font-weight: bolder;
     background-color: blue;
